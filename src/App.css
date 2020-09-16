@@ -1,0 +1,381 @@
+body {
+  background-color: #f7fbfc;
+  box-sizing: 0;
+}
+
+/* Navbar CSS */
+
+.navbar {
+  background-color: #384259;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.navbar a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 2rem;
+}
+
+.navbar a:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+/* Home CSS */
+
+.home {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Main CSS */
+
+.main {
+  background-color: #f5f5f5;
+  color: #333;
+  width: 70%;
+  padding: 0.5rem;
+  box-shadow: 1px 1px 3px 0px black;
+}
+
+.main-intro {
+  margin: 1.5rem;
+  background-color: #f9f7f7;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: 5px solid #fff;
+}
+
+.main h1 {
+  font-family: helvetica sans-serif;
+  color: #333;
+  padding: 1rem;
+  font-size: 3rem;
+  border-radius: 1rem;
+}
+
+.main p {
+  font-size: 1.7rem;
+  padding: 2.5rem;
+}
+
+.main small {
+  font-size: 1.4rem;
+  color: #333;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  text-decoration: underline;
+}
+
+.main ul {
+  list-style: none;
+  background-color: #f9ffea;
+  padding: 1.5rem;
+  margin: 1rem;
+  font-size: 1.7rem;
+  box-shadow: 1px 1px 3px 0px white;
+}
+
+.main ul li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.main img {
+  margin-top: 0.5rem;
+  width: 90%;
+}
+
+.main-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url("./images/background2.jpg");
+  background-repeat: no-repeat;
+  background-color: #384259;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.main-contact h1 {
+  width: 100%;
+  color: #fff;
+  background-color: #333;
+  opacity: 0.8;
+}
+
+.main-contact-form {
+  padding: 2rem;
+  width: 35rem;
+  font-size: 1.5rem;
+  background-color: #333;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.main-contact-form input {
+  width: 20rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  text-align: center;
+  border: 0.25rem solid lightgrey;
+}
+
+.main-contact-form textarea {
+  width: 33rem;
+  height: 10rem;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  border: 0.25rem solid lightgrey;
+}
+
+.main-contact-form select {
+  text-align-last: center;
+  font-size: 1.3rem;
+  width: 20rem;
+  height: 2rem;
+  margin: 0.5rem;
+  border: 0.25rem solid lightgrey;
+}
+
+.main-contact-form button {
+  margin: 0.5rem;
+  width: 80%;
+  height: 3rem;
+  border: none;
+  background-color: #fff;
+  color: #3f72af;
+  border: 0.25rem solid #3f72af;
+  font-size: 1.5rem;
+}
+
+.main-contact-form button:hover {
+  background-color: #3f72af;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Right CSS */
+
+.right {
+  margin: 0.5rem;
+  width: 30%;
+  padding: 0.5rem;
+  background-color: #384259;
+  color: #fff;
+  box-shadow: 1px 1px 3px 0px black;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: #444f5a;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.fa-star {
+  color: #ffde7d;
+}
+
+/* Recipe CSS */
+.output-recipe {
+  text-align: center;
+  height: 67rem;
+  padding: 1rem;
+}
+
+.output-recipe ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  list-style: none;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.output-recipe li {
+  margin: 0.5rem;
+}
+
+.output-recipe p {
+  font-size: 1.5rem;
+}
+
+.output-recipe p a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.search-recipe-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.search-recipe-bar p {
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.search-recipe-bar small {
+  width: 100%;
+}
+
+.search-recipe-bar input {
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  width: 10rem;
+  height: 1rem;
+}
+
+/* Search Nutrition CSS */
+.search-nutrition {
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.search-nutrition h1 {
+  padding: 1rem;
+  color: #333;
+  border-radius: 1rem;
+}
+
+.search-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.search-bar input {
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  width: 35rem;
+  height: 1rem;
+}
+
+.output {
+  background-color: #444f5a;
+  color: #fff;
+  height: 12rem;
+  padding: 1rem;
+}
+
+/* Footnote CSS */
+.footnote {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  opacity: 0.7;
+  margin-top: 0.25rem;
+}
+
+.footnote a {
+  color: #fff;
+}
+
+.section-one {
+  font-size: 2rem;
+}
+
+.section-two {
+  font-size: 5rem;
+}
+
+.section-two i {
+  margin-top: 1.25rem;
+  margin-left: 0.2rem;
+  margin-right: 0.5rem;
+}
+
+.section-two i:hover {
+  color: blue;
+}
+
+@media (max-width: 1200px) {
+  .home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .navbar {
+    justify-content: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .navbar a {
+    font-size: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .search-bar input {
+    margin: 0.5rem;
+    width: 75%;
+  }
+
+  .main-contact-form {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .output-recipe {
+    height: 74rem;
+  }
+
+  .footnote {
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+    padding: 1rem;
+  }
+
+  .section-one {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .section-two {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+}
