@@ -364,7 +364,12 @@ body {
   }
 
   .output-recipe {
-    height: 85rem;
+    height: 82rem;
+  }
+
+  .output-recipe p {
+    font-size: 1.2rem;
+    padding: 2rem;
   }
 
   .footnote {
