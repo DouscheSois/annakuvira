@@ -339,9 +339,9 @@ body {
   }
 
   .navbar a {
-    font-size: 2rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    font-size: 1.5rem;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
@@ -352,10 +352,15 @@ body {
   }
 
   .main-contact-form {
+    width: 30rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 0rem;
     padding-right: 0rem;
+  }
+
+  .main-contact-form textarea {
+    width: 25rem;
   }
 
   .output-recipe {
@@ -372,10 +377,12 @@ body {
   .section-one {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    font-size: 1.5rem;
   }
 
   .section-two {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    font-size: 3.5rem;
   }
 }
